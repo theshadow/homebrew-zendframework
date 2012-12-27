@@ -8,7 +8,6 @@ class Zendframework206 < MetaZendFramework
 
   full = 'https://packages.zendframework.com/releases/ZendFramework-2.0.6/ZendFramework-2.0.6.tgz'
   full_sha1 = '17341a31307307e23e27c14713c19752ff275b47'
-
-  homepage 'www.zendframework.com'
+  
   version '2.0.6'
 end

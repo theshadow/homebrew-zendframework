@@ -21,21 +21,21 @@ class MetaZendFramework < Formula
     end
   end
 
-  def fetch
-    if build.include? 'install-full'
-      url full
-      sha1 full_sha1
-    end
-    super
-  end
-
   def install
     prefix.install Dir['*']
     system "ln -s #{prefix}/library/Zend #{HOMEBREW_PREFIX}/lib/php/Zend"
   end
 
   def self.init
+    homepage 'www.zendframework.com'
+
     depends_on PhpInstalled.new
+
     option 'install-full', 'Install the full version instead of the minimum version.'  
+
+    if build.include? 'install-full'
+      url full
+      sha1 full_sha1
+    end
   end  
 end

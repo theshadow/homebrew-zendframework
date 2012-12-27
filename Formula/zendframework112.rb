@@ -9,6 +9,5 @@ class Zendframework112 < MetaZendFramework
   full = 'https://packages.zendframework.com/releases/ZendFramework-1.12.1/ZendFramework-1.12.1.tar.gz'
   full_sha1 = '23da5a770ec274262a3e7b55ea8d058c19f42512'
 
-  homepage 'www.zendframework.com'
   version '1.12.1'
 end
