@@ -19,7 +19,7 @@ Setup the `homebrew/dupes` tap which has dependencies we need:
 
 Then ensure that you have PHP 5.3+ available, (the example below uses josegonzalez' keg)
 
-    brew tab josegonzalez/homebrew-php
+    brew tap josegonzalez/homebrew-php
     brew install php53 or brew install php54
 
 Finally you tap this repository
